@@ -1,0 +1,46 @@
+{
+    "name": "image-background-remover-frontend",
+    "version": "1.0.0",
+    "description": "AI-powered image background remover frontend",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "type-check": "tsc --noEmit"
+    },
+    "dependencies": {
+        "next": "14.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "typescript": "^5.2.2",
+        "@types/node": "^20.8.0",
+        "@types/react": "^18.2.0",
+        "@types/react-dom": "^18.2.0",
+        "tailwindcss": "^3.3.0",
+        "autoprefixer": "^10.4.16",
+        "postcss": "^8.4.31",
+        "framer-motion": "^10.16.0",
+        "react-dropzone": "^14.2.3",
+        "lucide-react": "^0.292.0",
+        "clsx": "^2.0.0",
+        "tailwind-merge": "^2.0.0",
+        "axios": "^1.6.0",
+        "react-hot-toast": "^2.4.1",
+        "zustand": "^4.4.6",
+        "react-query": "^3.39.3",
+        "react-intersection-observer": "^9.5.2"
+    },
+    "devDependencies": {
+        "eslint": "^8.52.0",
+        "eslint-config-next": "14.0.0",
+        "@typescript-eslint/eslint-plugin": "^6.9.0",
+        "@typescript-eslint/parser": "^6.9.0",
+        "prettier": "^3.0.3",
+        "prettier-plugin-tailwindcss": "^0.5.6"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
